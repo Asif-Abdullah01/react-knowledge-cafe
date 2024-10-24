@@ -1,0 +1,43 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co.com/YZFQDms/cover.jpg",
+        "title": "Whispers of the Forest",
+        "author": "Luna Green",
+        "author_img": "https://i.ibb.co.com/SRRBL43/15906.jpg",
+        "posted_date": "2023-10-01",
+        "reading_time": 10,
+        "hashtags": ["#nature", "#adventure", "#mystery"]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co.com/YZFQDms/cover.jpg",
+        "title": "The Quantum Thief",
+        "author": "Max Sterling",
+        "author_img": "https://i.ibb.co.com/SRRBL43/15906.jpg",
+        "posted_date": "2023-10-10",
+        "reading_time": 15,
+        "hashtags": ["#sci-fi", "#technology", "#thriller"]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co.com/YZFQDms/cover.jpg",
+        "title": "Secrets of the Old Castle",
+        "author": "Ella Rain",
+        "author_img": "https://i.ibb.co.com/SRRBL43/15906.jpg",
+        "posted_date": "2023-10-15",
+        "reading_time": 30,
+        "hashtags": ["#historical", "#fiction", "#romance"]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co.com/YZFQDms/cover.jpg",
+        "title": "Beyond the Stars",
+        "author": "Ravi Patel",
+        "author_img": "https://i.ibb.co.com/SRRBL43/15906.jpg",
+        "posted_date": "2023-10-20",
+        "reading_time": 25,
+        "hashtags": ["#space", "#exploration", "#fantasy"]
+    }
+
+]
