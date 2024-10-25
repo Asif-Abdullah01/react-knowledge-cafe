@@ -3,7 +3,7 @@ import { FaRegBookmark } from "react-icons/fa";
 
 
 const Blog = ({blog, handeAddToBookmark, handleMarkAsRead}) => {
-    const {title, cover, reading_time, author,author_img,posted_date, hashtags} = blog;
+    const {id, title, cover, reading_time, author,author_img,posted_date, hashtags} = blog;
     return (
         <div className="mb-20 space-y-4">
             <img className="w-full mb-8" src={cover} alt={`Cover picture of the title ${title}`} />
@@ -26,7 +26,7 @@ const Blog = ({blog, handeAddToBookmark, handleMarkAsRead}) => {
                     hashtags.map((hash,idx) => <span className="mr-2" key={idx}><a href="">#{hash}</a></span>)
                 }
             </p>
-            <button onClick={() => handleMarkAsRead(reading_time)} className="text-purple-600 font-bold underline">Mark as Read</button>
+            <button onClick={() => handleMarkAsRead(id,reading_time)} className="text-purple-600 font-bold underline">Mark as Read</button>
         </div>
     );
 };
